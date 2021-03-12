@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="tableViewClient" prefHeight="736.0" prefWidth="718.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.controller.ClientController">
+   <columns>
+      <TableColumn fx:id="idColumn" prefWidth="75.0" text="ID" />
+      <TableColumn fx:id="lastNameColumn" prefWidth="75.0" text="LastName" />
+      <TableColumn fx:id="firstNameColumn" prefWidth="75.0" text="FirstName" />
+      <TableColumn fx:id="patronymicColumn" prefWidth="75.0" text="Patronymic" />
+      <TableColumn fx:id="genderCodeColumn" prefWidth="87.0" text="GenderCode" />
+      <TableColumn fx:id="birthDayColumn" prefWidth="63.0" text="Birthday" />
+      <TableColumn fx:id="phoneColumn" prefWidth="75.0" text="Phone" />
+      <TableColumn fx:id="registrationDateColumn" prefWidth="112.0" text="RegistrationDate" />
+      <TableColumn fx:id="emailColumn" text="Email" />
+   </columns>
+</TableView>
